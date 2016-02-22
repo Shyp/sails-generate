@@ -13,7 +13,7 @@
     "merge-defaults": "0.1.4",
     "reportback": "0.1.8",
     "sails-generate-new": "0.10.18",
-    "sails-generate-backend": "0.11.3",
+    "sails-generate-backend": "git://github.com/Shyp/sails-generate-backend.git#v1.0.0",
     "sails-generate-frontend": "0.10.20",
     "sails-generate-gruntfile": "0.10.10",
     "sails-generate-api": "0.10.0",
