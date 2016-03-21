@@ -1,10 +1,17 @@
 .PHONY: test install clean shrinkwrap
 
 test:
-	TZ=GMT mocha --bail --slow 2
+	node --version
+	TZ=GMT ./node_modules/.bin/mocha --bail --slow 2
 
 install:
+	npm --version
 	npm install
+
+circle-install:
+	curl --remote-name https://raw.githubusercontent.com/Shyp/set-node-npm/master/set-node-npm
+	chmod +x set-node-npm
+	./set-node-npm
 
 shrinkwrap: clean
 	npm cache clear
@@ -14,5 +21,5 @@ shrinkwrap: clean
 	npm shrinkwrap
 	clingwrap npmbegone
 
-clean: 
+clean:
 	rm -rf node_modules
