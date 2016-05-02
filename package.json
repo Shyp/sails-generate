@@ -15,14 +15,11 @@
     "sails-generate-new": "0.10.18",
     "sails-generate-backend": "git://github.com/Shyp/sails-generate-backend.git#v1.0.0",
     "sails-generate-frontend": "0.10.20",
-    "sails-generate-gruntfile": "0.10.10",
     "sails-generate-api": "0.10.0",
     "sails-generate-model": "0.10.9",
     "sails-generate-controller": "0.10.7",
     "sails-generate-views": "0.10.4",
-    "sails-generate-adapter": "0.10.4",
-    "sails-generate-generator": "0.10.11",
-    "sails-generate-views-jade": "0.10.3"
+    "sails-generate-adapter": "0.10.4"
   },
   "devDependencies": {
     "mocha": "2",
